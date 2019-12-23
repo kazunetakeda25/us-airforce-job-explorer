@@ -1,0 +1,141 @@
+#loadingBarContainer {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    z-index: 10;
+    .nanobar {
+        height: 10px;
+        .bar {
+            background: #38f;
+            border-radius: 4px;
+            box-shadow: 0 0 10px #59d;
+            margin: 0 auto;
+        }
+    }
+    display:none;
+}
+
+#TapToPlace {
+    position: absolute;
+    top: calc(50% + 120px);
+    text-transform: uppercase;
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    z-index: 10;
+    pointer-events: none;
+    color: #005DA3;
+    span {
+        font-family: sans-serif;
+        font-weight: bold;
+        font-size: 1.5em;
+        //border-radius: 3px;
+        display: inline-block;
+        pointer-events: none;
+        text-shadow: 0 0 10px #FFFFFF, 0 0 10px #FFFFFF, 0 0 10px #FFFFFF, 0 0 10px #FFFFFF;
+        //padding: 10px;
+        //background-color: white;
+    }
+}
+
+#movieTextureContainer {
+    display: none;
+}
+
+#PointCameraContainer {
+    z-index: 10;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    img {
+        max-width: 75%;
+    }
+}
+
+.modal {
+    position: fixed;
+    /* Stay in place */
+    z-index: 1000;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.6);
+    /* Black w/ opacity */
+    transition: 0.5s opacity;
+    opacity: 1;
+    text-align: center;
+    font-family: sans-serif;
+    img.logo {
+        padding-left: 20px;
+        width: 25%;
+        min-width: 100px;
+    }
+    /* Modal Content */
+    .modal-content {
+        background-color: white;
+        color: black;
+        border: 3px solid black;
+        margin: 8% auto;
+        /* 8% from the top and centered */
+        padding: 20px;
+        border-radius: 10px;
+        width: 80%;
+        /* Could be more or less, depending on screen size */
+        h3 {
+            font-weight: normal;
+        }
+        a h2 {
+            display: inline-block;
+            width: 100%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            background-color: #005da3;
+            color: white;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+    }
+    /* The Close Button */
+    .close {
+        color: white;
+        float: right;
+        font-size: 40px;
+        font-weight: bold;
+    }
+}
+
+#TempCareerSelector {
+    font-family: sans-serif;
+    a {
+        display: block;
+        margin-bottom: 20px;
+        color: #005DA3;
+    }
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}

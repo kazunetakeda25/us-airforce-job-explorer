@@ -1,0 +1,35 @@
+{
+  "name": "viewerready-8thwall-af",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "del": "^6.0.0",
+    "esmify": "^2.1.1",
+    "gulp": "^4.0.2",
+    "gulp-bro": "^2.0.0",
+    "gulp-cache-bust": "^1.4.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-npm-dist": "^1.0.3",
+    "gulp-require-modules": "^1.1.4",
+    "gulp-uglify": "^3.0.2",
+    "uglify": "^0.1.5"
+  },
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "gulp-sass": "^4.1.0",
+    "jquery": "^3.5.1",
+    "load-bmfont": "^1.4.1",
+    "nanobar": "^0.4.2",
+    "three": "^0.123.0",
+    "three-bmfont-text": "^3.0.1",
+    "three-gltf-loader": "^1.111.0"
+  }
+}
